@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  nginx:
+    image: registry.at.some.tld/docker-nginx-static
+    build:
+      context: ./build
